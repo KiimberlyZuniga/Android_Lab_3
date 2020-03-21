@@ -8,6 +8,7 @@ import android.view.View
 import android.widget.Toast
 
 class QuizActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
@@ -23,7 +24,7 @@ class QuizActivity : AppCompatActivity() {
 
     fun onStart(s: String?) {
         super.onStart()
-        Log.d(TAG, "********onStart() called********")
+        Log.d(TAG, "********onStart() called2********")
     }
 
     public override fun onStart() {
