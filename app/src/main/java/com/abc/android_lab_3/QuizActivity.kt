@@ -20,6 +20,8 @@ class QuizActivity : AppCompatActivity() {
 
     fun clickDisplayIncorrectToast(view: View?) {
         Toast.makeText(this, R.string.incorrect_toast, Toast.LENGTH_SHORT).show()
+
+
     }
 
     fun onStart(s: String?) {
